@@ -36,7 +36,19 @@ Pods represent a logical application
 Pods provide shared namespace
 one ip per pod
 
+# What's is a container and virtual machine
 
+A VM will get physical resources like RAM, CPU, Network cards, etc and
+“slice and dice” them into virtual resources. It then provides the
+virtual resources on top of a hypervisor as smaller Virtual Machines
+that look and feel like the normal physical computer where you can
+then install a guest Operating System.
+
+Docker “slices and dices” Operating System resources and not the
+physical resources into what they prefer to call containers.
+
+Containers are basically slicing the operating system resources:
+https://medium.com/backticks-tildes/how-to-dockerize-a-django-application-a42df0cb0a99
 
 Kubernetes cheatsheet - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
